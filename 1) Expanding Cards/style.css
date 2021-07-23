@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* using vh helps us for using body with full height and it is also useful for 
+responsive pages
+we also use visible hidden for texts in same classes. by this way only one  
+class text became visible default */
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    margin: 0.5%;
+    height: 90vh;
+    border-radius: 5vh;
+    min-width: 12vh;
+    opacity: 0.7;
+}
+
+.panel:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+h3{
+    visibility: hidden;
+}
+
+.active{
+    min-width: 110vh;
+    height: 90vh;
+    border-radius: 5vh;
+    margin: 0.5%;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 2vh;
+    letter-spacing: 0.3vh;
+    font-size: x-large;
+    opacity: 1;
+}
+
+.active h3{
+    visibility: visible;
+}
