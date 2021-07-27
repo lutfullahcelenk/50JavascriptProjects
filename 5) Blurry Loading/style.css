@@ -59,4 +59,10 @@ div {
   border: 1px ridge #fff;
   border-radius: 50%;
 }
+
+/* WHAT WE LEARN IN THIS PROJECT ARE LISTED BELOW...
+1- @mixin using is similar to function in javascript
+2- @mixin is called with @include inside of {}
+3- we create variable with $ sign for later use
+*/
 /*# sourceMappingURL=style.css.map */
