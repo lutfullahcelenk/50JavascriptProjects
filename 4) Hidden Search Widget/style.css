@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    min-height: 5vh;
+}
+
+.btn{
+    position: absolute;
+    padding: 6%;
+    border: none;
+    width: 5vh;
+    height: 5vh;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Search{
+    width: 25vh;
+    outline: none;
+    border: none;
+    display: none;
+    width: 5vh;
+    height: 5vh;
+}
+
+
+.Search-open{
+    width: 25vh;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
