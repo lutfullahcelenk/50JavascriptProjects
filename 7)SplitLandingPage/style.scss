@@ -20,6 +20,11 @@ $right-backGroundColor: rgba(43, 43, 43, 0.8);
     overflow: hidden;
 }
 
+@mixin parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body {
     @include perfectcentering(row, center);
 }
@@ -36,6 +41,7 @@ body {
 .left {
     position: relative;
     background-image: url(img/ps.jpg);
+    @include parallax;
 }
 
 .left::before {
@@ -49,6 +55,7 @@ body {
 .right {
     position: relative;
     background-image: url(img/xbox.jpg);
+    @include parallax;
 }
 
 .right::before {
@@ -93,9 +100,11 @@ button{
 }
 
 .active{
+    @include parallax;
     width: 150%;
 }
 
 .passive{
+    @include parallax;
     width: 50%;
 }

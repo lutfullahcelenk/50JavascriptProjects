@@ -55,6 +55,8 @@ body {
 .left {
   position: relative;
   background-image: url(img/ps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .left::before {
@@ -68,6 +70,8 @@ body {
 .right {
   position: relative;
   background-image: url(img/xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .right::before {
@@ -113,10 +117,14 @@ button:hover {
 }
 
 .active {
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 150%;
 }
 
 .passive {
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
