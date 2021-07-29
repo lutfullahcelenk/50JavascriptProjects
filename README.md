@@ -5,15 +5,15 @@ Enjoy coding...
 
 1)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/1)ExpandingCards
 
-2)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/2)ProgressingSteps
+2)ProgressingSteps -- https://lutfullahcelenk.github.io/50JavascriptProjects/2)ProgressingSteps
 
-3)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/3)RotatingNavigation
+3)RotatingNavigation -- https://lutfullahcelenk.github.io/50JavascriptProjects/3)RotatingNavigation
 
-4)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/4)HiddenSearchWidget
+4)HiddenSearchWidget -- https://lutfullahcelenk.github.io/50JavascriptProjects/4)HiddenSearchWidget
 
-5)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/5)BlurryLoading
+5)BlurryLoading -- https://lutfullahcelenk.github.io/50JavascriptProjects/5)BlurryLoading
 
-6)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/6)ScrollAnimation
+6)ScrollAnimation -- https://lutfullahcelenk.github.io/50JavascriptProjects/6)ScrollAnimation
 
-7)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/7)SplitLandingPage
+7)SplitLandingPage -- https://lutfullahcelenk.github.io/50JavascriptProjects/7)SplitLandingPage
 
