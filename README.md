@@ -1,2 +1,19 @@
 # 50JavascriptProjects
-We have 50 projects which include HTML5, CSS3 ve Javascript extensions.  Enjoy coding...
+We have 50 projects which include HTML5, CSS3 ve Javascript extensions. 
+You can copy the whole link for any project and paste search bar due to make the project displayed.
+Enjoy coding...
+
+1)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/1)ExpandingCards
+
+2)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/2)ProgressingSteps
+
+3)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/3)RotatingNavigation
+
+4)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/4)HiddenSearchWidget
+
+5)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/5)BlurryLoading
+
+6)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/6)ScrollAnimation
+
+7)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/7)SplitLandingPage
+
