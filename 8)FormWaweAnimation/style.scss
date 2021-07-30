@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+$background-color : #3874AB;
+$main-background-color: #224567;
+$text-color: #e8f6ff;
+$text-focus-color : lightblue;
+$button-color : #264554;
+
+@mixin perfect-centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+body{
+    @include perfect-centering();
+    line-height: 1.8rem;
+    background-color: $background-color;
+}
+main{
+    background-color: $main-background-color;
+    padding: 5vh;
+    color: $text-color;
+    min-width: 40vh;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    & h3{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .form--label{
+        position: relative;
+        padding: 2vh 0;
+        & input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: $text-color;
+            font-size: 1rem;
+            min-width: 100%;
+        }
+        & label{
+            position: absolute;
+            top: 5vh;
+            z-index: 100;
+        }
+    }
+}
+button{
+    padding: 1.5vh 13vh;
+    font-size: 1.5rem;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: $button-color;
+    &:hover{
+        opacity: 1;
+        background-color: darkorange;
+        color: $text-color;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}
+p{
+    font-size: 1rem;
+    margin-top: 3vh;
+    & a{
+        text-decoration: none;
+        color: lightblue;
+    }
+}
+.focuss{
+    position: inherit;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+}
+.focussdiv{
+    color: $text-focus-color;
+}

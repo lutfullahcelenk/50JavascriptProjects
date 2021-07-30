@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  line-height: 1.8rem;
+  background-color: #3874AB;
+}
+
+main {
+  background-color: #224567;
+  padding: 5vh;
+  color: #e8f6ff;
+  min-width: 40vh;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+main .form--label {
+  position: relative;
+  padding: 2vh 0;
+}
+
+main .form--label input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #e8f6ff;
+  font-size: 1rem;
+  min-width: 100%;
+}
+
+main .form--label label {
+  position: absolute;
+  top: 5vh;
+  z-index: 100;
+}
+
+button {
+  padding: 1.5vh 13vh;
+  font-size: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.8;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #264554;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: darkorange;
+  color: #e8f6ff;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 3vh;
+}
+
+p a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.focuss {
+  position: inherit;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+.focussdiv {
+  color: lightblue;
+}
+/*# sourceMappingURL=style.css.map */
