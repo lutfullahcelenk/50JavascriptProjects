@@ -17,3 +17,5 @@ Enjoy coding... <hr>
 
 7)SplitLandingPage -- https://lutfullahcelenk.github.io/50JavascriptProjects/7)SplitLandingPage
 
+8)FormWaweAnimation -- https://lutfullahcelenk.github.io/50JavascriptProjects/8)FormWaweAnimation
+
