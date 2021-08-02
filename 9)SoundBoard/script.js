@@ -13,7 +13,7 @@ sounds.forEach(sound =>{
     });
 
     document.getElementById("buttons").appendChild(btn);
-})
+});
 
 function stopSongs() {
     sounds.forEach(sound =>{
@@ -22,4 +22,4 @@ function stopSongs() {
         song.pause();
         song.currentTime = 0;
     })
-}
+};
