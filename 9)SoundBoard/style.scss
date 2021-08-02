@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+};
+
+$backGroundColor: #9b67da;
+$buttonColor: #5e378f;
+
+@mixin perfectcentering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+};
+
+body{
+    @include perfectcentering;
+    background-color: $backGroundColor;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: x-large;
+};
+
+.buttons{
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    & button{
+        color: white;
+        background-color: $buttonColor;
+        padding: 2% 4%;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+        outline: none;
+        &:hover{
+            opacity: 0.9;
+        };
+        &:focus{
+            transform: scale(0.90);
+            background-color: orangered;
+        };
+    };
+
+};
