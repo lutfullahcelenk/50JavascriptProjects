@@ -1,17 +1,25 @@
-// const names = ["Applause", "Boo", "Gasp", "Tada", "Victory", "Wrong"];
-const audios = document.querySelectorAll("audio");
-const buttons = document.querySelectorAll("button");
-buttons.forEach(button => {
-    let counter = 0;
-    button.addEventListener("click", () => {
-        counter++;
-        let song = button.innerText;
-        let audio = document.getElementById(song);
-        if (counter > 1 || !audio.paused || !audio.ended) {
-            audio.pause();
-            audio.currentTime = 0;
-        }
-        counter--;
-        audio.play();
-    })
+const sounds = ["Applause", "Boo", "Gasp", "Tada", "Victory", "Wrong"];
+
+sounds.forEach(sound =>{
+    const btn = document.createElement("button");
+    btn.classList.add("btn");
+
+    btn.innerText = sound;
+
+    btn.addEventListener("click" , () => {
+        stopSongs();
+
+        document.getElementById(sound).play();
+    });
+
+    document.getElementById("buttons").appendChild(btn);
 })
+
+function stopSongs() {
+    sounds.forEach(sound =>{
+        const song = document.getElementById(sound);
+
+        song.pause();
+        song.currentTime = 0;
+    })
+}
