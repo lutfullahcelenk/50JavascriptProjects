@@ -5,7 +5,7 @@ Enjoy coding... <hr>
 
 1)Expanding Cards -- https://lutfullahcelenk.github.io/50JavascriptProjects/1)ExpandingCards
 
-2)ProgressingSteps -- https://lutfullahcelenk.github.io/50JavascriptProjects/2)ProgressingSteps
+2)ProgressingSteps -- https://lutfullahcelenk.github.io/50JavascriptProjects/2)ProgressSteps
 
 3)RotatingNavigation -- https://lutfullahcelenk.github.io/50JavascriptProjects/3)RotatingNavigation
 
