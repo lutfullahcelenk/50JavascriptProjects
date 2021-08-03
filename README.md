@@ -21,3 +21,5 @@ Enjoy coding... <hr>
 
 9)SoundBoard -- https://lutfullahcelenk.github.io/50JavascriptProjects/9)SoundBoard
 
+10)DadJokes -- https://lutfullahcelenk.github.io/50JavascriptProjects/10)DadJokes
+
